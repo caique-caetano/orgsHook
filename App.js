@@ -11,6 +11,7 @@ const estilos = StyleSheet.create({
   tela:
   {
     flex: 1,
+    backgroundColor:"white",
   }
 })
 export default App;
