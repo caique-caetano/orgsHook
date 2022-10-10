@@ -17,7 +17,6 @@ export default function Produtor({ nome, imagem, distancia, estrelas }) {
         <View style={estilos.informacoes}>
             <View>
                 <Text style={estilos.nome}>{ nome }</Text>
-                < Estrela />
                 <Estrelas 
                     quantidade={estrelas}
                     editavel={selecionado}
